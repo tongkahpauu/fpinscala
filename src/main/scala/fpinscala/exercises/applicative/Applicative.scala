@@ -3,7 +3,7 @@ package fpinscala.exercises.applicative
 import fpinscala.answers.monads.Functor
 import fpinscala.answers.monoids.Monoid
 import fpinscala.answers.state.State
-
+//Aplicative exercise
 trait Applicative[F[_]] extends Functor[F]:
   self =>
 
